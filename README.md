@@ -20,4 +20,5 @@ if you want to recogniz some admins you can add admin picture in **pictureDatabs
 this script recognize upload face compre pictureDatabse directory
 
 # programmer
-created by Matin Kahi
+created by Matin Kahi<br/>
+If there is a problem, I will be happy to report it to me :)
