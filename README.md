@@ -15,9 +15,6 @@ A simple written with the Flask module in python to recognize the faces of admin
 
 # run
 `python3 face.py`<br/>
-# HTTP
-127.0.0.1:5000/api/v1/ <br/>
-**you can change `5000` to other ports**<br/>
 **API output: JSON**
 # tips
 if you want to recogniz some admins you can add admin picture in **pictureDatabse** directory ...<br/>
