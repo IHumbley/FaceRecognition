@@ -46,7 +46,7 @@ def allowed_file(filename) -> bool:
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-@app.route('/api/v1/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def process():
     if request.method == 'POST':
         if 'file' not in request.files:
