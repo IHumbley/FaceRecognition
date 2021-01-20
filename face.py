@@ -51,12 +51,12 @@ def process():
     if request.method == 'POST':
         if 'file' not in request.files:
             status = {'ok':False, 'result':'no file part'}
-	    os.unlink(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+		os.unlink(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return jsonify(status)
         file = request.files['file']
         if file.filename == '':
             status = {'ok':False, 'result':'no selected file'}
-	    os.unlink(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+		os.unlink(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return jsonify(status)
         if file and allowed_file(file.filename):
             filename = str(time.time()) + '.' + secure_filename(file.filename).rsplit('.', 1)[1].lower()
