@@ -1,5 +1,5 @@
 # FaceRecognition
-A simple written with the Flask module in python to recognize the faces of admins and other people
+A simple written with the Flask module in python to recognize the faces of admins and other people<br/>
 [![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg)]()
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/MrSubmissive/AdminFounder/blob/master/LICENSE) 
 [![Python](https://img.shields.io/badge/python-v3-blue.svg)]()
