@@ -8,7 +8,7 @@ A simple written with the Flask module in python to recognize the faces of admin
 > Dependencies  
 > - [requests](https://pypi.org/project/Flask/) `pip3 install Flask`
 > - [face_recognition](https://pypi.org/project/face-recognition/) `pip3 install face_recognition`
-> - [werkzeug](https://docs.python.org/3/library/threading.html) `pip3 install Werkzeug`
+> - [werkzeug](https://docs.python.org/3/library/threading.html) `pip3 install Werkzeug` <br/>
 > Standard library
 > - [time](https://docs.python.org/3.4/library/time.html)
 > - [os](https://docs.python.org/3.4/library/os.html)
