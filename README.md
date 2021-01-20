@@ -14,7 +14,8 @@ A simple written with the Flask module in python to recognize the faces of admin
 > - [os](https://docs.python.org/3.4/library/os.html)
 
 # run
-`python3 face.py`
+`python3 face.py`<br/>
+**API output: JSON**
 # tips
 if you want to recogniz some admins you can add admin picture in **pictureDatabse** directory ...<br/>
 this script recognize upload face compre pictureDatabse directory
